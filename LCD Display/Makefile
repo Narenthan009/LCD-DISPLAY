@@ -1,0 +1,19 @@
+# MPLAB IDE generated this makefile for use with GNU make.
+# Project: LCD Display.mcp
+# Date: Wed Nov 25 23:30:30 2020
+
+AS = MPASMWIN.exe
+CC = 
+LD = mplink.exe
+AR = mplib.exe
+RM = rm
+
+LCD\ Display.cof : LCD\ Display.o
+	$(CC) /p18F4550 "LCD Display.o" /u_DEBUG /z__MPLAB_BUILD=1 /z__MPLAB_DEBUG=1 /o"LCD Display.cof" /M"LCD Display.map" /W
+
+LCD\ Display.o : LCD\ Display.asm ../../../../../Program\ Files\ (x86)/Microchip/MPASM\ Suite/p18f4550.inc
+	$(AS) /q /p18F4550 "LCD Display.asm" /l"LCD Display.lst" /e"LCD Display.err" /o"LCD Display.o" /d__DEBUG=1
+
+clean : 
+	$(CC) "LCD Display.o" "LCD Display.err" "LCD Display.lst" "LCD Display.cof" "LCD Display.hex"
+

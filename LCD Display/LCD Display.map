@@ -1,0 +1,116 @@
+MPLINK 4.49, Linker
+Linker Map File - Created Fri Nov 27 01:12:31 2020
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                   .org_1       code   0x000008    program   0x000002
+                   .org_2       code   0x000018    program   0x0002b8
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000005      
+                            0x000008    0x000009      
+                            0x000018    0x0002cf      
+            704 out of 33048 program addresses used, program memory utilization is 2%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    D10ms   0x00001a    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    again   0x000022    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   again1   0x00001e    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    check   0x000228    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   check1   0x000236    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                  clr_LCD   0x00016c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                 cmd_code   0x00004e    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+               config_LCD   0x000176    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    my_id   0x0000bc    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                  my_name   0x00006a    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_0   0x0000fe    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_1   0x000108    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_2   0x000112    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_3   0x00011c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_4   0x000126    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_5   0x000130    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_6   0x00013a    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_7   0x000144    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_8   0x00014e    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_9   0x000158    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   on_LCD   0x000162    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                send_data   0x00005c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupA   0x000180    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupB   0x000192    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupC   0x0001a4    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupD   0x0001b6    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show0   0x0002bc    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show1   0x000244    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show2   0x000250    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show3   0x00025c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show4   0x000268    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show5   0x000274    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show6   0x000280    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show7   0x00028c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show8   0x000298    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show9   0x0002a4    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                 show_SP1   0x0002b0    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                 show_SP2   0x0002c8    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                special_1   0x0001c8    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                special_2   0x0001f2    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    start   0x000218    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    D10ms   0x00001a    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   again1   0x00001e    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    again   0x000022    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                 cmd_code   0x00004e    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                send_data   0x00005c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                  my_name   0x00006a    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    my_id   0x0000bc    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_0   0x0000fe    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_1   0x000108    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_2   0x000112    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_3   0x00011c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_4   0x000126    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_5   0x000130    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_6   0x00013a    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_7   0x000144    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_8   0x00014e    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    num_9   0x000158    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   on_LCD   0x000162    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                  clr_LCD   0x00016c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+               config_LCD   0x000176    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupA   0x000180    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupB   0x000192    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupC   0x0001a4    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   setupD   0x0001b6    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                special_1   0x0001c8    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                special_2   0x0001f2    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    start   0x000218    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    check   0x000228    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                   check1   0x000236    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show1   0x000244    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show2   0x000250    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show3   0x00025c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show4   0x000268    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show5   0x000274    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show6   0x000280    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show7   0x00028c    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show8   0x000298    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show9   0x0002a4    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                 show_SP1   0x0002b0    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                    show0   0x0002bc    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+                 show_SP2   0x0002c8    program     static C:\Users\selvanarenthan\Desktop\Microcontroller\LCD Display\LCD Display.asm
+
+
